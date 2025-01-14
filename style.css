@@ -1,0 +1,79 @@
+:root {
+    --bs-primary: #1B1C31;; /* Change the primary color to a custom one */
+    --bs-body-bg: #f8f9fa; /* Set a custom body background */
+  }
+  
+
+.navbar{
+    background-color: #1B1C31;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 8px 6px rgba(0, 0, 0, 0.3); 
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-link{
+    font-size:large;
+}
+.dropdown-menu{
+    background-color: #272947;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color: #643DB8;
+    color: white;
+}
+.fa-bars{
+    font-size: 1.8rem;
+}
+.offcanvas{
+    background-color: #1B1C31;
+}
+.offcanvas-title{
+    color: white;
+}
+.btn-close{
+    background-color: white;
+    border-radius: 50%;
+}
+.main{
+    padding-top: 10%;
+    background-color: var(--bs-primary);
+    color: white;
+    height: 100vh;
+}
+.figure img{
+    height: 25rem;
+    border: none; 
+    padding: 0; 
+    /* border-radius: 20%; */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+    transition: all 0.5s ease;
+}
+.figure img:hover{
+    transform: scale(1.1);
+}
+.bottom .btn{
+    color: white;
+    border: solid 2px #643DB8;
+}
+.bottom .btn:hover{
+    background-color: #643DB8;
+}
+#element{
+    color: #643DB8;
+}
+@media(max-width: 992px){
+    .figure img{
+        border-radius: 50%;
+        height: 43vh;
+    }
+    .bottom{
+        order: 2;
+        margin-top: -11rem;
+    
+};

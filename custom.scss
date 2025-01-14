@@ -1,0 +1,15 @@
+// Step 1: Import Bootstrap's required files for functions, variables, and mixins
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+@import 'node_modules/bootstrap/scss/mixins';
+
+// Step 2: Override the default navbar link colors
+$navbar-light-color:#ffff;
+$navbar-light-hover-color: #643DB8;
+$navbar-light-active-color: #643DB8;
+$navbar-light-brand-color: #ffff;
+$navbar-light-brand-hover-color: #fff;
+
+//body
+// Step 3: Import the full Bootstrap library
+@import 'node_modules/bootstrap/scss/bootstrap';
